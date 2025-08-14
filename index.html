@@ -1,62 +1,204 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Lorenzo Belenguer // GitHub.io Page</title>
-    <style>
-      body {
-        background-color: #E0FFFF;
-        color: #555D50; 
-      }
-      h1, h2 {
-        color: black;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- Banner Image -->
-    <img src="ethics AI word cloud landscape(2).jpg" alt="Word cloud AI ethics" style="width: 100%;">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Lorenzo Belenguer — AI Ethics & Governance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Lorenzo Belenguer — AI ethics researcher, governance consultant, and visual artist focused on bias mitigation, inclusive AI policy, and committee governance.">
+  <link rel="icon" href="lived-experiences-logo.png">
+  <!-- Open Graph for nicer sharing -->
+  <meta property="og:title" content="Lorenzo Belenguer — AI Ethics & Governance">
+  <meta property="og:description" content="Bias mitigation • Inclusive AI policy • Committee governance">
+  <meta property="og:image" content="Portrait-of-Lorenzo-Belenguer-low-res-250px.jpg">
+  <meta property="og:type" content="website">
+  <style>
+    :root{
+      --bg:#ffffff; --ink:#0f172a; --muted:#475569; --rule:#e2e8f0;
+      --accent:#0ea5e9; --accent2:#0369a1; --panel:#f8fafc; --pill:#eef6ff;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;line-height:1.55}
+    a{color:var(--accent);text-decoration:none}
+    a:hover,a:focus{color:var(--accent2);text-decoration:underline}
+    .wrap{max-width:1000px;margin:0 auto;padding:20px}
+    header{display:grid;grid-template-columns:80px 1fr auto;gap:16px;align-items:center}
+    .logo{width:80px;height:80px;border-radius:12px;object-fit:contain;background:#fff;border:1px solid var(--rule);padding:6px}
+    .title h1{margin:0;font-size:clamp(22px,2.6vw,32px);font-weight:800}
+    .title p{margin:2px 0 0;color:var(--muted)}
+    .cta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:flex-end}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid var(--accent);background:var(--accent);color:#fff;font-weight:700}
+    .btn.secondary{background:transparent;color:var(--accent)}
+    nav{margin-top:16px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+    .nav{display:flex;gap:18px;flex-wrap:wrap;padding:10px 0}
+    .nav a{color:var(--muted);font-weight:600}
+    .banner{margin:14px 0 8px}
+    .banner img{width:100%;border-radius:10px;border:1px solid var(--rule)}
+    .hero{display:grid;grid-template-columns: 1.1fr .6fr;gap:20px;margin:14px 0}
+    .hero img{width:100%;max-width:260px;border-radius:14px;border:1px solid var(--rule)}
+    section{padding:14px 0}
+    h2{margin:0 0 10px;text-transform:uppercase;letter-spacing:.6px;font-size:14px;color:var(--muted)}
+    h3{margin:0 0 6px}
+    .card{background:var(--panel);border:1px solid var(--rule);border-radius:12px;padding:16px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    ul{margin:8px 0 0 20px;padding:0}
+    li{margin:6px 0}
+    .pill{display:inline-block;background:var(--pill);border:1px solid var(--rule);padding:4px 8px;border-radius:999px;margin:2px 6px 0 0;font-size:12px}
+    .small{font-size:14px;color:var(--muted)}
+    .foot{margin-top:28px;padding:16px 0;border-top:1px solid var(--rule);color:var(--muted);font-size:14px}
+    /* Accessibility focus outline */
+    a:focus, button:focus{outline:3px solid var(--accent2);outline-offset:2px;border-radius:6px}
+    @media (max-width:860px){
+      header{grid-template-columns:60px 1fr}
+      .cta{justify-content:flex-start;margin-top:10px}
+      .hero{grid-template-columns:1fr}
+      .grid{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <a href="#main" class="small" style="position:absolute;left:-9999px;top:auto">Skip to content</a>
 
-    <h1>Lorenzo Belenguer</h1>
-        <!-- Thumbnail Image -->
-    <img src="Face.jpeg" alt="AI ethics researcher" style="width: 100px;">
-    <p>AI Ethics researcher with a special interest in bias in AI systems and a visual artist.</p>
+  <div class="wrap">
+    <header>
+      <img src="lived-experiences-logo.png" alt="Logo: lived experiences, AI ethics, governance" class="logo">
+      <div class="title">
+        <h1>Lorenzo Belenguer (he/they)</h1>
+        <p>AI Ethics Researcher &amp; Governance Consultant • Bayswater, London</p>
+        <p class="small">Email: <a href="mailto:Lorenzo.Belenguer@gmail.com">Lorenzo.Belenguer@gmail.com</a> •
+          <a href="https://www.linkedin.com/in/lorenzobelenguer">LinkedIn</a> •
+          <a href="https://www.aiethics.consulting/">www.aiethics.consulting</a>
+        </p>
+      </div>
+      <div class="cta">
+        <a class="btn" href="Lorenzo-Belenguer-AI-Ethics-CV.pdf" download>⬇ Download 1-page CV (PDF)</a>
+        <a class="btn secondary" href="mailto:Lorenzo.Belenguer@gmail.com?subject=AI%20Ethics%20Committee%20enquiry">Contact</a>
+      </div>
+    </header>
 
-    <h2>Coding projects</h2>
-    <ul>
-      <li><a href="https://github.com/LorenzoBelenguer/AIF360-Detect-Mitigate-bias-German-Credit-Data-">Repository 1: Python - AI Fairness 360 toolkit, AIF360, Detect/Mitigate bias in the German Credit Dataset</a></li>
-      <li><a href="https://github.com/LorenzoBelenguer/Global_mean_rising_sea_levels_1993_2023-and-app">Repository 2: Python - Global Mean Rising Sea levels 1993-2023 + app (created with Dash library)</a></li>
-      <li><a href="https://github.com/LorenzoBelenguer/Hypothesis_correlation_Covid19">Repository 3: Python - Hypothesis correlation Covid19</a></li>
-      <li><a href="https://github.com/LorenzoBelenguer/Sentiment-analysis">Repository 4: Python - Sentiment analysis / Analyzing the sentiment and emotions from tweets from Dell</a></li>
-      <li><a href="https://github.com/LorenzoBelenguer/ERD-database">Repository 5: SQL - Creation of a database and its ERD shown in a pdf document</a></li>
-      <!-- Add more repositories here -->
-    </ul>
+    <nav>
+      <div class="nav">
+        <a href="#committees">For Committees</a>
+        <a href="#projects">Projects → Governance</a>
+        <a href="#research">Research &amp; Paper</a>
+        <a href="#code">Coding Projects</a>
+        <a href="#bio">Biography</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
 
-    <h2>Paper Springer magazine // detect and mitigate bias in AI systems</h2>
-    <ul>
-      <li><a href="https://link.springer.com/epdf/10.1007/s43681-022-00138-8?sharing_token=HL-9sf7oVjuOdfwOQz56Eve4RwlQNchNByi7wbcMAY6536Sg1UPYTMlRh_iXkrzwpciiccDRZxm0mL5t9M43xHZu8z_zLl3kzi2vo8bekbHaumk-a57e-IMBB9r4A26AxoIoNy0e5jSLhwySMf18gwuwpWjyzgJwI0qwIEbPfyM%3D">AI bias: exploring discriminatory algorithmic decision‑making models and the application of possible machine‑centric solutions adapted from the pharmaceutical industry</a></li>
-    </ul>
+    <main id="main">
+      <!-- Optional banner (keep or remove) -->
+      <div class="banner">
+        <img src="ethics AI word cloud landscape(2).jpg" alt="AI ethics word cloud banner">
+      </div>
 
-    <!-- Medium Size Image -->
-    <img src="flowchart with citation LB.jpg" alt="AI bias" style="width: 300px;">
+      <div class="hero">
+        <div class="card">
+          <h2>Profile</h2>
+          <p>Nonbinary AI ethics researcher and governance specialist focused on algorithmic fairness, bias mitigation, and public-interest AI. Published in <em>AI &amp; Ethics</em> (Springer). Former NHS Research Ethics Committee (Lay Plus). Governance lead for Westminster LGBT+ Forum. Lived experience as a Spanish/British migrant with non-visible disabilities informs inclusive, pragmatic oversight.</p>
+          <div>
+            <span class="pill">Responsible AI</span>
+            <span class="pill">Bias Mitigation</span>
+            <span class="pill">Ethics Review</span>
+            <span class="pill">Policy &amp; Governance</span>
+            <span class="pill">Stakeholder Engagement</span>
+            <span class="pill">EDI Advocacy</span>
+          </div>
+        </div>
+        <div>
+          <img src="Portrait-of-Lorenzo-Belenguer-low-res-250px.jpg" alt="Portrait of Lorenzo Belenguer">
+        </div>
+      </div>
 
+      <section id="committees">
+        <h2>For Committees</h2>
+        <div class="card">
+          <p>I bring a combination of <strong>academic expertise</strong>, <strong>lived experience</strong>, and <strong>governance leadership</strong> to AI ethics boards. My approach balances <strong>innovation with fairness</strong>, ensuring AI systems are effective, <strong>transparent, accountable, and inclusive</strong>.</p>
+          <ul>
+            <li><strong>Bias Mitigation Expertise</strong> — Author of a peer-reviewed Springer paper on algorithmic bias proposing sector-specific fairness strategies. <a href="https://link.springer.com/epdf/10.1007/s43681-022-00138-8?sharing_token=HL-9sf7oVjuOdfwOQz56Eve4RwlQNchNByi7wbcMAY6536Sg1UPYTMlRh_iXkrzwpciiccDRZxm0mL5t9M43xHZu8z_zLl3kzi2vo8bekbHaumk-a57e-IMBB9r4A26AxoIoNy0e5jSLhwySMf18gwuwpWjyzgJwI0qwIEbPfyM%3D">Read paper</a></li>
+            <li><strong>Governance Design</strong> — Built the full governance framework for the Westminster LGBT+ Forum (Code of Conduct, Safeguarding, Volunteering, Finance; updated Constitution for CIC/CIO readiness).</li>
+            <li><strong>Ethics Review Experience</strong> — NHS Research Ethics Committee (Lay Plus): reviewed digital/AI components for fairness, proportionality, and participant protection.</li>
+            <li><strong>Cross-sector Perspective</strong> — Advisory roles: English National Opera and Age UK London; community policy advising at Westminster City Council.</li>
+            <li><strong>Lived Experience</strong> — Nonbinary queer migrant with non-visible disabilities, ensuring oversight reflects diverse realities and risks.</li>
+          </ul>
+          <p class="small">Available for committee membership, observer roles, or advisory contributions to help teams meet high ethical standards while enabling innovation and trust.</p>
+        </div>
+      </section>
 
-    <h2>Biography</h2>
-    <p>Lorenzo Belenguer possesses a Master of Arts in Artificial Intelligence & Philosophy from Northeastern University – London, and a Bachelor of Arts with Honors in Economics and Business Sciences from the University of Valencia, Spain. Belenguer's academic pursuits primarily revolve around the following areas: Ethical Frameworks (particularly as Frameworks of Action), bias leading to discriminatory outcomes, Human Interaction with AI, and Machine Learning, with the aim of harnessing technology for the betterment of society at large. Notably, this includes a dedicated focus on historically marginalised communities, such as women, the LGBTQIA+ community, indigenous groups, and individuals facing economic hardship.
+      <section id="projects">
+        <h2>Projects → Governance</h2>
+        <div class="grid">
+          <div class="card">
+            <h3 style="margin-top:0">Westminster LGBT+ Forum — Governance Pack</h3>
+            <ul>
+              <li>Code of Conduct (board &amp; members)</li>
+              <li>Safeguarding Policy (adults at risk)</li>
+              <li>Volunteering Policy &amp; onboarding</li>
+              <li>Finance governance framework</li>
+              <li>Updated Constitution (CIC/CIO readiness)</li>
+            </ul>
+            <p class="small">Outcome: safer, consistent decision-making; clearer accountability; compliance-ready processes.</p>
+          </div>
+          <div class="card">
+            <h3 style="margin-top:0">Committee &amp; Advisory Experience</h3>
+            <ul>
+              <li>NHS Research Ethics Committee — Lay Plus (2022–2023)</li>
+              <li>English National Opera — Advisory Committee (2025–)</li>
+              <li>Age UK London — Advisory Committee (2024–)</li>
+              <li>Westminster City Council — Community Priorities Programme Adviser (2024–)</li>
+              <li>Gallery Director — The Gallery at Willesden Green (London 2012 heritage project)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-Belenguer identifies as nonbinary, and beyond their academic interests, they are a visual artist with a keen interest in the transformative potential of the arts to foster compassion within society and promote healing. Originally hailing from Valencia, Spain, Belenguer has been based in London for the past two decades.</p>
-    <p>Email: <a href="mailto:Lorenzo.Belenguer@gmail.com">Lorenzo.Belenguer@gmail.com</a></p>
-     <p>LinkedIn Profile: <a href="https://www.linkedin.com/in/lorenzobelenguer">www.linkedin.com/in/lorenzobelenguer</a></p>
-     <p><b>Languages:</b> native Spanish, proficiency English, and basic French</p>
-     
-     <h2>Articles related to AI ethics</h2>
-     <p> <a href="https://medium.com/escapadasuk/should-we-teach-machines-how-to-conduct-an-ethical-review-cecbe73998c9?sk=e722b4e581a1ced03c854307c2d2eff8">Should We Teach Machines How to Conduct an Ethical Review? And Keep the Alignment with Human Values in the Backseat?</a>Reinforcement Learning, a Machine Learning paradigm in which machines are rewarded for achieving specific goals, could be rewarded for getting the consequences of each action right, and could offer a promising avenue for further enhancing ethical behaviour in AI systems.</p>
-    <h2>My paper being quoted in books and other papers</h2>
-    <ul>
-     <p><i>"Frequently, the data used to train AI contains bias. Belenguer notes that the data is not only biased, but also unrepresentative of people of colour, women, and other marginalised groups."</i></p>
-<p>Thank you for sharing insights from my paper in the article:  "Artificial Intelligence and Racial Discrimination" by Louis Koen and Kgomotso Mufamadi  included in the book "Artificial Intelligence and Human Rights" edited by Alberto Quintavalla and Jeroen Temperman for Oxford University Press</p>
-<li><a href="https://books.google.co.uk/books?id=1kfPEAAAQBAJ">Link to the book: https://books.google.co.uk/books?id=1kfPEAAAQBAJ</a></li>
-    </ul>
-  </body>
+      <section id="research">
+        <h2>Research &amp; Paper</h2>
+        <div class="card">
+          <p><strong>Publication</strong>: <em>AI Bias: Exploring Discriminatory Algorithmic Decision-Making Models and the Application of Possible Machine-Centric Solutions Adapted from the Pharmaceutical Industry</em>, <em>AI &amp; Ethics</em> (Springer, 2022). <a href="https://link.springer.com/epdf/10.1007/s43681-022-00138-8?sharing_token=HL-9sf7oVjuOdfwOQz56Eve4RwlQNchNByi7wbcMAY6536Sg1UPYTMlRh_iXkrzwpciiccDRZxm0mL5t9M43xHZu8z_zLl3kzi2vo8bekbHaumk-a57e-IMBB9r4A26AxoIoNy0e5jSLhwySMf18gwuwpWjyzgJwI0qwIEbPfyM%3D">Read paper</a></p>
+          <img src="flowchart with citation LB.jpg" alt="Flowchart from bias-mitigation paper" style="width:100%;max-width:560px;border:1px solid var(--rule);border-radius:10px">
+        </div>
+      </section>
+
+      <section id="code">
+        <h2>Coding Projects</h2>
+        <div class="card">
+          <ul>
+            <li><a href="https://github.com/LorenzoBelenguer/AIF360-Detect-Mitigate-bias-German-Credit-Data-">AIF360 — Detect/Mitigate bias (German Credit Dataset)</a></li>
+            <li><a href="https://github.com/LorenzoBelenguer/Global_mean_rising_sea_levels_1993_2023-and-app">Global mean sea levels 1993–2023 (Dash app)</a></li>
+            <li><a href="https://github.com/LorenzoBelenguer/Hypothesis_correlation_Covid19">Hypothesis correlation — Covid-19</a></li>
+            <li><a href="https://github.com/LorenzoBelenguer/Sentiment-analysis">Sentiment analysis — Dell tweets</a></li>
+            <li><a href="https://github.com/LorenzoBelenguer/ERD-database">SQL ERD and schema example</a></li>
+          </ul>
+          <p class="small">Also: Alan Turing Institute — Data Experience Programme (Mastercard use cases); Google Data Analytics Certificate.</p>
+        </div>
+      </section>
+
+      <section id="bio">
+        <h2>Biography</h2>
+        <div class="card">
+          <p>Lorenzo Belenguer holds an MA in Philosophy &amp; Artificial Intelligence (ethics focus) from Northeastern University – London, and a BA in Economics from the University of Valencia. Research interests include ethical frameworks as <em>frameworks of action</em>, bias leading to discriminatory outcomes, human-AI interaction, and machine learning for public benefit—especially for historically marginalised communities.</p>
+          <p>Lorenzo identifies as nonbinary and is also a visual artist; exhibitions include the British Museum and Tate Modern. Based in London for two decades, they advocate for the power of the arts to build empathy and for AI to be governed transparently, fairly, and inclusively.</p>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <div class="card">
+          <p><strong>Email</strong>: <a href="mailto:Lorenzo.Belenguer@gmail.com">Lorenzo.Belenguer@gmail.com</a> &nbsp;|&nbsp;
+             <strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/lorenzobelenguer">lorenzobelenguer</a> &nbsp;|&nbsp;
+             <strong>Website</strong>: <a href="https://www.aiethics.consulting/">www.aiethics.consulting</a></p>
+          <p class="small">Available for committee membership, observer roles, and advisory projects in AI ethics, governance, and bias mitigation.</p>
+        </div>
+      </section>
+
+      <div class="foot">
+        © <span id="y"></span> Lorenzo Belenguer. Built for clarity, access, and inclusion.
+      </div>
+    </main>
+  </div>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
 </html>
-
-
